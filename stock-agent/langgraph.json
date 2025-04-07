@@ -1,0 +1,7 @@
+{
+  "dependencies": ["./venv"],
+  "graphs": {
+    "stock_analysis": "./agent.py:create_stock_analysis_graph"
+  },
+  "env": "./.env"
+}

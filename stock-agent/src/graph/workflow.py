@@ -30,3 +30,6 @@ def create_stock_analysis_graph():
     graph.add_edge("fetch_news", END)
     
     return graph.compile()
+
+# Export the graph for langgraph.json
+graph = create_stock_analysis_graph()
