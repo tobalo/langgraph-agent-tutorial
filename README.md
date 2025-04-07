@@ -23,17 +23,14 @@ LangGraph is an orchestration framework for building stateful, multi-actor appli
 
 ### Setup
 Dependencies: 
-- Python 3.11
-- uv (recommended)
-- Ollama[https://ollama.com/download]
-- NewsAPI KEY[https://newsapi.org/]
+- [Python 3](https://www.python.org/downloads/)
+- [uv](https://github.com/astral-sh/uv) (recommended)
+- [Ollama](https://ollama.com/download)
+- [NewsAPI KEY](https://newsapi.org/)
 
-1. Run Ollama with Llama3.1 in a separate terminal
-`ollama run llama3.1`
+1. Run Ollama with Llama3.1 in a separate terminal: `ollama run llama3.1`
 
-2. Create .env file
-`cp .env.example .env`
-
+2. Create .env file: `cp .env.example .env`
 
 ### Installation
 
